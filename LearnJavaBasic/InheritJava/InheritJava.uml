@@ -1,2 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_9NS0IO0nEeuvgYhNiCKadQ" name="InheritJava"/>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_9NS0IO0nEeuvgYhNiCKadQ" name="InheritJava">
+    <eAnnotations xmi:id="_BiB_wO0oEeuvgYhNiCKadQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_BiB_we0oEeuvgYhNiCKadQ" source="codegen">
+        <details xmi:id="_BiB_wu0oEeuvgYhNiCKadQ" key="codegenDirectory" value="/InheritJava/src"/>
+        <details xmi:id="_ByRbMO0oEeuvgYhNiCKadQ" key="AssociatedSourceCode" value="/InheritJava/src/com/learnandroid/inheritance/NhanVien.java;2872218032/1;/InheritJava/src/com/learnandroid/inheritance/NhanVienChinhThuc.java;1069053154/1;/InheritJava/src/com/learnandroid/inheritance/NhanVienThoiVu.java;2908220065/1;/InheritJava/src/com/learnandroid/inheritance/NhanVienBinhThuong.java;3312380644/1;/InheritJava/src/com/learnandroid/inheritance/NhanVienQuanLy.java;2649733308/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_BiEcAO0oEeuvgYhNiCKadQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_BiEcAe0oEeuvgYhNiCKadQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_BiEcAu0oEeuvgYhNiCKadQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_BiEcA-0oEeuvgYhNiCKadQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_BiEcBO0oEeuvgYhNiCKadQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_BiFDEO0oEeuvgYhNiCKadQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_BiFDEe0oEeuvgYhNiCKadQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_BiFDEu0oEeuvgYhNiCKadQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_BiFqIO0oEeuvgYhNiCKadQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_BhUOEO0oEeuvgYhNiCKadQ" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_BhWDQO0oEeuvgYhNiCKadQ" name="learnandroid">
+        <packagedElement xmi:type="uml:Package" xmi:id="_BhgbUO0oEeuvgYhNiCKadQ" name="inheritance">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Bh1ygO0oEeuvgYhNiCKadQ" name="NhanVien" isAbstract="true">
+            <ownedAttribute xmi:id="_BjW1cO0oEeuvgYhNiCKadQ" name="ten">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_BjXcgO0oEeuvgYhNiCKadQ" name="cmnd">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Bjh0kO0oEeuvgYhNiCKadQ" name="NhanVien" specification="_BiKioO0oEeuvgYhNiCKadQ">
+              <ownedParameter xmi:id="_Bjh0ke0oEeuvgYhNiCKadQ" type="_Bh1ygO0oEeuvgYhNiCKadQ" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Bjk34O0oEeuvgYhNiCKadQ" name="NhanVien" specification="_BiMX0O0oEeuvgYhNiCKadQ">
+              <ownedParameter xmi:id="_Bjk34e0oEeuvgYhNiCKadQ" name="ten">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Bjk34u0oEeuvgYhNiCKadQ" name="cmnd">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Bjk34-0oEeuvgYhNiCKadQ" type="_Bh1ygO0oEeuvgYhNiCKadQ" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.ten = ten;&#xD;
+		this.cmnd = cmnd;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Bjle8O0oEeuvgYhNiCKadQ" name="toString" specification="_BiNl8O0oEeuvgYhNiCKadQ">
+              <ownedParameter xmi:id="_Bjle8e0oEeuvgYhNiCKadQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return this.ten + &quot;==>&quot;+ xuatLuong();&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_BiIGYO0oEeuvgYhNiCKadQ" name="xuatLuong" isAbstract="true">
+              <ownedParameter xmi:id="_BiJ7kO0oEeuvgYhNiCKadQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_BiKioO0oEeuvgYhNiCKadQ" name="NhanVien" method="_Bjh0kO0oEeuvgYhNiCKadQ">
+              <eAnnotations xmi:id="_BiLJsO0oEeuvgYhNiCKadQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_BiLJse0oEeuvgYhNiCKadQ" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_BiLJsu0oEeuvgYhNiCKadQ" type="_Bh1ygO0oEeuvgYhNiCKadQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_BiMX0O0oEeuvgYhNiCKadQ" name="NhanVien" method="_Bjk34O0oEeuvgYhNiCKadQ">
+              <eAnnotations xmi:id="_BiM-4O0oEeuvgYhNiCKadQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_BiM-4e0oEeuvgYhNiCKadQ" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_BiMX0e0oEeuvgYhNiCKadQ" name="ten">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_BiMX0u0oEeuvgYhNiCKadQ" name="cmnd">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_BiM-4u0oEeuvgYhNiCKadQ" type="_Bh1ygO0oEeuvgYhNiCKadQ" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_BiNl8O0oEeuvgYhNiCKadQ" name="toString" method="_Bjle8O0oEeuvgYhNiCKadQ">
+              <ownedParameter xmi:id="_BiONAO0oEeuvgYhNiCKadQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_BiTskO0oEeuvgYhNiCKadQ" name="NhanVienChinhThuc">
+            <generalization xmi:id="_BjVnUO0oEeuvgYhNiCKadQ" general="_Bh1ygO0oEeuvgYhNiCKadQ"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BjmGAO0oEeuvgYhNiCKadQ" name="xuatLuong" specification="_BiU6sO0oEeuvgYhNiCKadQ">
+              <ownedParameter xmi:id="_BjmGAe0oEeuvgYhNiCKadQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return 5000;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_BiU6sO0oEeuvgYhNiCKadQ" name="xuatLuong" method="_BjmGAO0oEeuvgYhNiCKadQ">
+              <ownedParameter xmi:id="_BiVhwO0oEeuvgYhNiCKadQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_BiXW8O0oEeuvgYhNiCKadQ" name="NhanVienThoiVu">
+            <generalization xmi:id="_BjVnUe0oEeuvgYhNiCKadQ" general="_Bh1ygO0oEeuvgYhNiCKadQ"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BjnUIO0oEeuvgYhNiCKadQ" name="xuatLuong" specification="_BiX-AO0oEeuvgYhNiCKadQ">
+              <ownedParameter xmi:id="_Bjn7MO0oEeuvgYhNiCKadQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return 3000;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_BiX-AO0oEeuvgYhNiCKadQ" name="xuatLuong" method="_BjnUIO0oEeuvgYhNiCKadQ">
+              <ownedParameter xmi:id="_BiYlEO0oEeuvgYhNiCKadQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_V1Qy8O0pEeuvgYhNiCKadQ" name="NhanVienBinhThuong">
+            <generalization xmi:id="_V1ZV0O0pEeuvgYhNiCKadQ" general="_BiTskO0oEeuvgYhNiCKadQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_V1SBEO0pEeuvgYhNiCKadQ" name="NhanVienQuanLy">
+            <generalization xmi:id="_V1ZV0e0pEeuvgYhNiCKadQ" general="_BiTskO0oEeuvgYhNiCKadQ"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_Bh2ZkO0oEeuvgYhNiCKadQ">
+      <eAnnotations xmi:id="_Bh6D8O0oEeuvgYhNiCKadQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BiPbIO0oEeuvgYhNiCKadQ" base_Element="_BiNl8O0oEeuvgYhNiCKadQ"/>
+  <UMLLabProfile:Annotations xmi:id="_BiRQUO0oEeuvgYhNiCKadQ" base_Element="_BiNl8O0oEeuvgYhNiCKadQ">
+    <annotations xmi:id="_BiR3YO0oEeuvgYhNiCKadQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BiVhwe0oEeuvgYhNiCKadQ" base_Element="_BiU6sO0oEeuvgYhNiCKadQ"/>
+  <UMLLabProfile:Annotations xmi:id="_BiWI0O0oEeuvgYhNiCKadQ" base_Element="_BiU6sO0oEeuvgYhNiCKadQ">
+    <annotations xmi:id="_BiWI0e0oEeuvgYhNiCKadQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_BiYlEe0oEeuvgYhNiCKadQ" base_Element="_BiX-AO0oEeuvgYhNiCKadQ"/>
+  <UMLLabProfile:Annotations xmi:id="_BiZMIO0oEeuvgYhNiCKadQ" base_Element="_BiX-AO0oEeuvgYhNiCKadQ">
+    <annotations xmi:id="_BiZzMO0oEeuvgYhNiCKadQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+</xmi:XMI>
