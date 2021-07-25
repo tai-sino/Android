@@ -16,6 +16,6 @@ public static void main(String[] args) {
 	th3.setName("[TT 3");
 	th3.start();
 	System.out.println("x hien tai lấy ra " + mt.getX());
-
+	//xử lý bằng file log. cần nhiều kinh nghiệm
 }
 }
