@@ -29,8 +29,8 @@
     <Button
         android:id="@+id/btnSum"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
         android:onClick="funcSum"
         android:text="sum onClick"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,6 @@
         android:id="@+id/txtNumA"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
@@ -55,7 +54,6 @@
         android:id="@+id/txtNumB"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:ems="10"
@@ -84,21 +82,22 @@
         android:text="Multiply Variable Listenner"
         android:textSize="10sp"
         app:layout_constraintEnd_toStartOf="@+id/btnDivide"
-        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMinus" />
+        app:layout_constraintTop_toBottomOf="@+id/btnMinus"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
 
     <Button
         android:id="@+id/btnDivide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
         android:text="Divide Variable Listenner"
         android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnMulti"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toRightOf="@id/btnMulti"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnMulti"
         app:layout_constraintTop_toBottomOf="@+id/btnMinus" />
 
     <Button
@@ -128,10 +127,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
         android:layout_marginBottom="20dp"
-        android:text="View Subclassing"
         android:onClick="funcChangeNameButton"
+        android:text="View Subclassing"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btnExit"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="@+id/btnExit"
-        app:layout_constraintTop_toBottomOf="@+id/btnExit" />
+        app:layout_constraintTop_toBottomOf="@+id/btnExit"
+        app:layout_constraintVertical_bias="0.304" />
 </android.support.constraint.ConstraintLayout>
